@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
+  "exclude": ["test"]
+}
