@@ -1,6 +1,6 @@
-import { calculateCalibrationSum, calculateCalibrationTotals } from './index'
+import { calculateCalibrationSum, calculateCalibrationTotals } from '.'
 
-describe('partners', () => {
+describe('01', () => {
   it('calculateCalibrationSum', () => {
     expect(calculateCalibrationSum('1abc2')).toEqual(12)
     expect(calculateCalibrationSum('pqr3stu8vwx')).toEqual(38)
